@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class DB {
-    private final String HOST = "localhost";
+    private final String HOST = "10.207.144.159";
     private final String PORT = "3306";
-    private final String DB_NAME = "sportdata";
-    private final String LOGIN = "root";
-    private final String PASS = "123456";
+    private final String DB_NAME = "user090_db1";
+    private final String LOGIN = "user090_user1";
+    private final String PASS = "m_Az6che";
 
     private Connection dbConn = null;
     private Connection getDbConnection() throws ClassNotFoundException, SQLException {
