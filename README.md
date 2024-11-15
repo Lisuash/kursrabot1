@@ -20,20 +20,20 @@
 Спортсмен не может зайти в свой аккаунт без кода. Для создания пользователя администратор должен зайти в соответствующее меню
     
 ## Порядок действий:
+1. Database
+* Создать папку, куда будет загружен проект
+* В папке shift + ПКМ -> PowerShell
+* https://github.com/Lisuash/kursrabot1.git
+* cd UP/database/
+* docker compose up
 
-Создать папку, куда будет загружен проект
-В папке shift + ПКМ -> PowerShell
-https://github.com/Lisuash/kursrabot1.git
-cd UP/database/
-docker compose up
+2. Java APP
 
-Java APP
-
-Открыть IntelliJ IDEA
-file -> Open -> Путь до вашей папки, куда сохраняли проект
-ПКМ по контроллеру в директории libs -> Add as Library
-Прочитать примечание выше
-Открыть класс HelloAplication -> Скомпилировать проект
+* Открыть IntelliJ IDEA
+* file -> Open -> Путь до вашей папки, куда сохраняли проект
+* ПКМ по контроллеру в директории libs -> Add as Library
+* Прочитать примечание выше
+* Открыть класс HelloAplication -> Скомпилировать проект
 
 ## Порядок действий непосредственно в настольном приложении:
 
